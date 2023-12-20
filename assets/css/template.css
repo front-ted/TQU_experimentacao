@@ -265,6 +265,22 @@ tbody td:first-child{border-left: 0;}
     right: -10px;
     content: '';
 }
+.botaoModalBg{
+    background-image: url('../../01_experimentacao/img/bt.png');
+    width: 295px;
+    height: 188px;
+    border: none;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+.botaoModalBg:before{
+    background-image: url('../../01_experimentacao/img/bt_hover.png') !important;
+}
+.botaoModalBg:hover{
+}
 
 /*modais*/
 .modal-header{
