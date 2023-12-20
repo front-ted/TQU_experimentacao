@@ -406,7 +406,11 @@ tbody td:first-child{border-left: 0;}
     margin: auto;
     left: -40px;
 }
-
+.destaque-textoInicial{
+    font-size: 60px;
+    font-weight: 700;
+    color: #92ACCE;
+}
 /*ÍCONES*/
 .destaque.icone.atencao::before,
 .destaque.icone.importante::before{background: url('../images/ico_atencao.svg') no-repeat;}
