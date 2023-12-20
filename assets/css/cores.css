@@ -10,7 +10,8 @@
 	linear-gradient(80deg, #1A4480 10%, #92ACCE 50%, #CF9993 92%) border-box;
 
 	--bg-gradiente-secundario: #92ACCE;
-	--gradiente-secundario: linear-gradient(60deg, #92ACCE 0%, #CF9993 18%, #1A4480 100%);
+	/* --gradiente-secundario: linear-gradient(60deg, #92ACCE 0%, #CF9993 18%, #1A4480 100%); */
+	--gradiente-secundario: linear-gradient(120deg, #1A4480 0%, #92ACCE 100%);
 
 	--cor-primaria: #92ACCE;
 	--cor-secundaria: #CF9993;
