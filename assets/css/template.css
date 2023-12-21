@@ -12,14 +12,16 @@
     font-family: "figtree-bold";
     src: url("../fonts/Figtree-Bold.ttf");
 }
+    /* background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 5%, transparent 25%), radial-gradient(farthest-corner at 100% 100%, #E9ECEC 0%, transparent 60%), radial-gradient(farthest-corner at -2% 97%, #CF9993 0%, transparent 25%); */
 
 body {
     background-image: url('../../01_experimentacao/img/textura.png');
+    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 5%, transparent 25%), radial-gradient(farthest-corner at 106% 114%, #1A447F 5%, transparent 25%), radial-gradient(farthest-corner at -2% 75%, #CF9993 0%, transparent 25%);
     position: relative;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 	background-position: center !important;
-	background-attachment: fixed !important;
+	/* background-attachment: fixed !important; */
 	height: auto;
 	overflow-x: hidden;
 }
@@ -148,6 +150,7 @@ td{
 tbody td:first-child{border-left: 0;}
 
 /*painel gaitinha ou accordion*/
+.accordion{padding: 20px 0px}
 .accordion-header{margin-top: 0;}
 .accordion-button, .accordion-button:not(.collapsed){
     color: #fff;
