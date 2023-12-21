@@ -653,8 +653,8 @@ ul {
 /* CÍRCULOS */
 .circulo-1 {
   background: url('../../../assets/images/asset_circulo.svg');
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 350px;
   position: absolute;
   left: -100px;
   top: -100px;
