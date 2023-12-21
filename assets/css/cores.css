@@ -61,7 +61,7 @@
 /*elementos que levam a cor primária*/
 .carousel-indicators .indicador, .splide__pagination__page, .modal-body, 
 .popover, .tab-content, .multipla-escolha button,
-.f-positivo, .f-negativo, .game-body .slot, .resp, .bg-podcast{
+.f-positivo, .f-negativo, .game-body .slot, .resp, .bg-podcast, .table-border{
 	border-color: var(--cor-primaria);
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover{
