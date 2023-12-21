@@ -14,6 +14,7 @@
 }
 
 body {
+    background-image: url('../../01_experimentacao/img/textura.png');
     position: relative;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
@@ -59,13 +60,22 @@ h2, h3, h4, h5{
     font-family: figtree-bold;
 }
 h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: -30px;
     font-size: 36px;
 }
 h3{
-    font-size: 23px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-h4{font-size: 18px;}
+h4{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 h5{font-size: 17px;}
 p, li, th, td, a{
     font-family: figtree;
@@ -436,6 +446,9 @@ tbody td:first-child{border-left: 0;}
     width: 30%;
     position: absolute;
     left: -35%;
+}
+.ilustracao-float2{
+    display: none
 }
 /*ÍCONES*/
 .destaque.icone.atencao::before,
