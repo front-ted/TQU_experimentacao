@@ -277,7 +277,10 @@ tbody td:first-child{border-left: 0;}
     display: block;
 }
 .botaoModalBg:before{
-    background-image: url('../../01_experimentacao/img/bt_hover.png') !important;
+    /* background-image: url('../../01_experimentacao/img/bt_hover.png') !important; */
+    
+    background: linear-gradient(90deg, rgba(207,153,144,1) 0%, rgba(146,172,206,1) 100%);
+    background: radial-gradient(farthest-corner at 5% 5%, rgba(207,153,144,1) 50%, rgba(149,172,206,1) 90%);
 }
 .botaoModalBg:hover{
 }
@@ -584,6 +587,7 @@ tbody td:first-child{border-left: 0;}
 }
 .table-header{
     padding: 10px;
+    color: #fff;
 }
 .table-border{
     border: 1px solid var(--cor-primaria);
@@ -620,6 +624,13 @@ tbody td:first-child{border-left: 0;}
     }
     .grafismo::after{
         right: -30px;
+    }
+    .destaque.iconeGrafismo::before{
+        right: -20px;
+        position: absolute;
+    }
+    .grafismo.grafismoLeft::before{
+        right: -20px;
     }
 }
 @media screen and (max-width: 780px){

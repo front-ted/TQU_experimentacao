@@ -41,6 +41,7 @@
 .borda-colorida, .destaque.borda-colorida{
 	background: var(--gradiente-borda);
 	color: #000;
+	filter: drop-shadow(#525252 2px 2px 6px);
 }
 
 /*elementos que levam gradiente secundário - duas cores*/
