@@ -411,6 +411,12 @@ tbody td:first-child{border-left: 0;}
     font-weight: 700;
     color: #92ACCE;
 }
+.ilustracao-float{
+    max-width: 250px;
+    width: 30%;
+    position: absolute;
+    left: -35%;
+}
 /*ÍCONES*/
 .destaque.icone.atencao::before,
 .destaque.icone.importante::before{background: url('../images/ico_atencao.svg') no-repeat;}
@@ -545,7 +551,38 @@ tbody td:first-child{border-left: 0;}
     background: #fff;
     color: #000;
 }
+/* outros */
+.custom-bullet{
+    list-style-image: url("../../01_experimentacao/img/marcador.png");
+}
+.table-header{
+    padding: 10px;
+}
+@media screen and (max-width: 1530px){
+    .ilustracao-float{
+        width: 14vw;
+        left: -30%;
+    }
+}
+@media screen and (max-width: 1460px){
+    .ilustracao-float{
+        width: 12vw;
+        left: -24%;
+    }
+}
 
+@media screen and (max-width: 1359px){
+    .ilustracao-float{
+        display: none;
+    }
+    .ilustracao-float2{
+        display: block;
+        float: right;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+
+}
 @media screen and (max-width: 1200px){
     h2{margin-left: 0;}
     .container-fluid .splide .splide__slide{
