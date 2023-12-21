@@ -390,6 +390,23 @@ tbody td:first-child{border-left: 0;}
     right: -60px;
     position: absolute;
 }
+.grafismo.grafismoLeft::after{
+    top: -50px;
+    left: -60px;
+    right: none;
+    bottom: none;
+}
+.grafismo.grafismoLeft::before{
+    content: '';
+    display: block;
+    background: url('../../01_experimentacao/img/elemento3.png') no-repeat;
+    height: 49px;
+    width: 49px;
+    bottom: 10px;
+    right: -60px;
+    position: absolute;
+    z-index: 11;
+}
 .destaque p:last-child{margin-bottom: 0;}
 .destaque.gradiente p{color: #fff;}
 .destaque.icone{
@@ -433,6 +450,16 @@ tbody td:first-child{border-left: 0;}
 .destaque.icone.visualizar::before{background: url('../images/ico_visualizar.svg') no-repeat;}
 .destaque.icone.nota::before{background: url('../images/ico_nota.svg') no-repeat;}
 .destaque.icone.conclusao::before{background: url('../images/ico_concluindo.svg') no-repeat;}
+.destaque.iconeGrafismo::before{
+    content: '';
+    display: block;
+    background: url('../../01_experimentacao/img/elemento2.png') no-repeat;
+    height: 99px;
+    width: 99px;
+    bottom: -50px;
+    right: -60px;
+    position: absolute;
+}
 
 /*ÍCONES NEGATIVOS*/
 .icone.negativo.atencao::before,
