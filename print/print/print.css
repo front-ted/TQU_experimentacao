@@ -294,4 +294,7 @@
 
   .splide__pagination{display: none !important;}
   .splide__list li{list-style: none !important;}
+  
+.borda-colorida, .destaque.borda-colorida{ filter: none;}
+.destaque.gradiente{ background: none;}
 }

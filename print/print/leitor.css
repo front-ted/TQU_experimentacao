@@ -677,3 +677,7 @@ iframe, iframe.youtube-pl{
 .modal-header button{
   display: none;
 }
+
+/* adicionais */
+.borda-colorida, .destaque.borda-colorida{ filter: none;}
+.destaque.gradiente{ background: none;}
