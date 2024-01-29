@@ -25,11 +25,11 @@ $(window).scroll(function () {
 
   // if user scrolls down..
   if (topPos > 100) {
-    $('.layer-preta').css("top", "0px");
+    $('body').removeClass("top60");
     $('.bt-hamburguer').css("top", "20px");
     $('.bt-fecharmenu').css("top", "20px");
   } else {
-    $('.layer-preta').css("top", "0px");
+    $('body').addClass("top60");
     $('.bt-hamburguer').css("top", "150px");      
     $('.bt-fecharmenu').css("top", "150px");      
   }
