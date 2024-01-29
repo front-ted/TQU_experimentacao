@@ -14,6 +14,7 @@ window.addEventListener('load', function(){
     $('.botao').click(function(){
       $(this).addClass('visitado');
     });
+    
 })
 
 // reposicionamento do botao do menu
@@ -24,9 +25,11 @@ $(window).scroll(function () {
 
   // if user scrolls down..
   if (topPos > 100) {
+    $('.layer-preta').css("top", "0px");
     $('.bt-hamburguer').css("top", "20px");
     $('.bt-fecharmenu').css("top", "20px");
   } else {
+    $('.layer-preta').css("top", "0px");
     $('.bt-hamburguer').css("top", "150px");      
     $('.bt-fecharmenu').css("top", "150px");      
   }
