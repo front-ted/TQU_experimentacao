@@ -615,7 +615,7 @@ tbody td:first-child{border-left: 0;}
     height: 100%;
     display: none;
     position: fixed;
-    top: 0px;
+    top: 60px;
     left: 0px;
     background-color: rgb(0, 0, 0);
     opacity: 0.85;
@@ -623,6 +623,9 @@ tbody td:first-child{border-left: 0;}
 }
 .top60 .layer-preta{
     top: 60px;
+}
+.top00 .layer-preta{
+    top: 0px;
 }
 .bg-escuro h2, .bg-escuro h3, .bg-escuro h4, .bg-escuro h5, .bg-escuro p,
 .bg-escuro li, .bg-escuro figcaption, .bg-escuro p.enunciado{
