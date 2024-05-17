@@ -6,12 +6,15 @@
 >
   <head>
     <meta charset="UTF-8" />
-    <title>Nome do curso</title>
+    <title>Técnico em Qualidade</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="tela_inicial/default/css/bootstrap.min.css" />
     <link rel="stylesheet" href="tela_inicial/default/css/cores.css" />
     <link rel="stylesheet" href="tela_inicial/default/css/style.css" />
-
+    <script language="javascript">
+	
+      var uc = "TQUEXP" // aqui vai a sigla do curso e o numero da uc
+    </script>
     <!--[if gte mso 9
       ]><xml>
         <mso:CustomDocumentProperties>
@@ -122,11 +125,9 @@
 					    dentro de uma ul, sempre posicionados na lista-fazer inicialmente
 				     -->
             <li class="drag-item fazer" data-item="link1" data-bs-toggle="tooltip" data-placement="top">
-              <p>
-                <a href="01_experimentacao/index.html" target="_blank" class="link">Conheça seu curso</a>
-              </p>
+              <a href="01_experimentacao/index.html" target="_blank" class="link">Conheça seu curso</a>
+              <button class="btPrint imprimir" title="Imprimir o conteúdo" data-conteudo="01_experimentacao">Imprimir</button>
               <div class="dropdown dropdown-bubble">
-                <button class="btPrint imprimir" title="Imprimir o conteúdo" data-conteudo="01_experimentacao">Imprimir</button>
                 <a id="dLabel" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false">
                   <span class="caret"></span>
                 </a>
@@ -139,9 +140,7 @@
               </div>
             </li>
             <li class="drag-item fazer" data-item="link2" data-bs-toggle="tooltip" data-placement="top">
-              <p>
-                <a href="02_experimentacao.pdf" target="_blank" class="link">Mundo do Trabalho</a>
-              </p>
+              <a href="02_experimentacao.pdf" target="_blank" class="link">Mundo do Trabalho</a>
               <div class="dropdown dropdown-bubble">
                 <!-- <button class="btPrint imprimir" title="Imprimir o conteúdo" data-conteudo="02_experimentacao.pdf">Imprimir</button> -->
                 <a id="dLabel" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false">
@@ -296,11 +295,9 @@
 
     <!-- partial -->
     <script src="tela_inicial/default/js/jquery.min.js"></script>
-
     <script src="tela_inicial/default/js/dragula.min.js"></script>
     <script src="tela_inicial/default/js/script.js"></script>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="tela_inicial/default/js/jquery.mobile.js"></script>
     <script src="tela_inicial/default/js/bootstrap.min.js"></script>
     <script>
       $(function () {
